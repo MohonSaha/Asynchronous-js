@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handing</title>
+    <style>
+        #container{
+            text-align: center;
+        }
+        #container h1{
+            font-size: 30px;
+        }
+        #error{
+            color: red;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="container">
+        <div>
+            <h1>Create custom error using try and catch</h1>
+            <div>
+                <input type="text" id="age" placeholder="Enter age between 18-30">
+                <button onclick="checkAge()" type="submit">Submit</button>
+                <p id="error"></p>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+    <script src="./error.js"></script>
+</body>
+</html>
